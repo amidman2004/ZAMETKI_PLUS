@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    tools:context=".MainActivity2">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:id="@+id/rlt2"
+    >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#ff21"
+        android:gravity="center"
+        android:text="Удалить"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата:"
+        android:id="@+id/date_text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/date_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/date_text"
+        android:text="DATE" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text"
+        android:layout_marginLeft="30dp"
+        android:text="Время:" />
+
+    <TextView
+        android:id="@+id/time_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text"
+        android:layout_toRightOf="@id/time_text"
+        android:text="TIME" />
+
+    <TextView
+        android:id="@+id/time_dl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_text"
+        android:layout_marginLeft="30dp"
+        android:text="Длительность:" />
+
+    <TextView
+        android:id="@+id/time_dl_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_text"
+        android:layout_toRightOf="@id/time_dl_text"
+        android:text="TIME" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тип события:"
+        android:layout_below="@id/time_dl_text"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tip_text"
+        />
+
+    <TextView
+        android:id="@+id/tip_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_dl_text"
+        android:layout_toRightOf="@id/tip_text"
+        android:text="TIP" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Комментарий:"
+        android:layout_below="@id/tip_i"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/kom_text"
+        />
+
+    <TextView
+        android:id="@+id/kom_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip_text"
+        android:layout_toRightOf="@id/kom_text"
+        android:text="KOM" />
+</RelativeLayout>
+
+</LinearLayout>

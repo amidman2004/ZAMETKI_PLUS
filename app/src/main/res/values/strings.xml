@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kompetentsia</string>
+    <string-array name="tip_sobitia">
+        <item>Встреча с клиентом</item>
+        <item>Показ</item>
+        <item>Запланированный звонок</item>
+    </string-array>
+</resources>
